@@ -11,10 +11,7 @@ const Hero = () => {
       <div className="hero-content">
         <Navbar />
         <div className="hero-main-text">
-          <h1>
-            Your Authentic <br />{" "}
-            <span className="highlight">Taste of Nigeria</span>
-          </h1>
+          <h1>Your Authentic Taste of Nigeria</h1>
           <p className="hero-description">
             Experience homemade flavors delivered fresh to your desk or home. We
             bring the rich culinary heritage of Nigeria right to your doorstep.

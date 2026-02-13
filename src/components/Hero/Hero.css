@@ -3,6 +3,7 @@
   height: 100vh;
   width: 100%;
   overflow: hidden;
+  font-size: 0.9rem;
 }
 
 .hero-image {
@@ -23,6 +24,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
   background-color: var(--bg-light);
 }
 
@@ -32,19 +34,14 @@
 }
 
 .hero-main-text h1 {
-  font-size: 2.8rem;
+  font-size: 2rem;
   line-height: 1.2;
   color: var(--text-dark);
   margin-bottom: 1.5rem;
 }
 
-.hero-main-text .highlight {
-  color: var(--primary-orange);
-}
-
 .hero-description {
-  color: var(--text-light);
-  font-size: 1.1rem;
+  color: var(--text-dark);
   margin-bottom: 2rem;
 }
 
@@ -91,7 +88,7 @@
   border: none;
   padding: 18px;
   border-radius: 10px;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   font-weight: 700;
   cursor: pointer;
   transition: background 0.3s ease;
@@ -107,7 +104,7 @@
   color: #3b82f6;
   padding: 18px;
   border-radius: 10px;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   font-weight: 700;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -121,7 +118,7 @@
 .hero-legal-footer {
   text-align: center;
   font-size: 0.85rem;
-  color: var(--text-light);
+  color: var(--text-dark);
 }
 
 .hero-legal-footer a {
