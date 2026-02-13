@@ -1,17 +1,8 @@
-import Hero from "./components/Hero/Hero";
-import Footer from "./components/Footer/Footer";
+import LandingPage from "./pages/LandingPage";
 // import "./App.css";
 
 function App() {
-  return (
-    <div className="app-wrapper">
-      <main>
-        <Hero />
-      </main>
-
-      <Footer />
-    </div>
-  );
+  return <LandingPage />;
 }
 
 export default App;

@@ -1,10 +1,15 @@
 :root {
-  --primary-orange: #ff8a22;
+  --primary-orange: #ff7a18;
   --primary-brown: #63422b;
+  --primary-blue: #1e88e5;
+  --soft-blue: #64b5f6;
+  --light-orange: #ffe1c4;
+  --soft-grey: #f3f4f6;
   --text-dark: #1f2937;
   --text-light: #666666;
   --bg-light: #ffffff;
-  --font-main: "Poppins", sans-serif;
+  --font-main: "SN Pro", sans-serif;
+  --font-logo: "Island Moments", cursive;
   --font-accent: "Cursive", serif;
 }
 
@@ -18,7 +23,7 @@ body {
   font-family: var(--font-main);
   color: var(--text-dark);
   line-height: 24px;
-  /* font-weight: 500; */
+  font-weight: 500;
 }
 
 button,

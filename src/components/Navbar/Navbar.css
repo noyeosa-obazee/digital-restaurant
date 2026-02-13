@@ -9,16 +9,16 @@
 }
 
 .logo-text {
-  font-family: "Great Vibes", cursive;
+  font-family: var(--font-logo);
   font-size: 1.8rem;
-  color: var(--primary-brown);
+  color: var(--primary-orange);
   font-weight: 500;
 }
 
 .sign-in-btn {
   background-color: transparent;
-  border: 1.5px solid #8a6dff;
-  color: #5e35b1;
+  border: 1.5px solid var(--primary-blue);
+  color: var(--primary-blue);
   padding: 8px 24px;
   border-radius: 6px;
   font-weight: 600;
