@@ -1,10 +1,15 @@
-import React from "react";
+import Hero from "./components/Hero/Hero";
+import Footer from "./components/Footer/Footer";
+// import "./App.css";
 
 function App() {
   return (
-    <div style={{ padding: 20 }}>
-      <h1>Digital Restaurant</h1>
-      <p>Frontend boilerplate ready.</p>
+    <div className="app-wrapper">
+      <main>
+        <Hero />
+      </main>
+
+      <Footer />
     </div>
   );
 }

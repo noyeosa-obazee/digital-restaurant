@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0; /* Vertical padding only; Hero container handles side padding */
+  width: 100%;
+  background-color: transparent;
+}
+
+.logo-text {
+  font-family: "Great Vibes", cursive; /* Matches the brand identity */
+  font-size: 1.8rem;
+  color: var(--primary-brown);
+  font-weight: 500;
+}
+
+.sign-in-btn {
+  background-color: transparent;
+  border: 1.5px solid #8a6dff; /* Matching that purple-ish border in the image */
+  color: #5e35b1;
+  padding: 8px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sign-in-btn:hover {
+  background-color: #f3f0ff;
+  transform: translateY(-1px);
+}
