@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import familyMeal from "../../assets/images/family_meal.png";
 import Footer from "../Footer/Footer";
 import "./Signup.css";
@@ -262,7 +263,7 @@ const Signup = () => {
 
             <div className="form-footer">
               <p>
-                Already have an account? <a href="#">Sign In</a>
+                Already have an account? <Link to="/login">Sign In</Link>
               </p>
             </div>
           </form>
