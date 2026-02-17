@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "./Cart.css";
 import Footer from "../Footer/Footer";
+import jollofPlate from "../../assets/images/jollof_plate.png";
+import soup from "../../assets/images/soup.png";
+import spicedSnails from "../../assets/images/spiced_snail.png";
 
 // Mock data to initialize the cart
 const INITIAL_ITEMS = [
@@ -10,7 +13,7 @@ const INITIAL_ITEMS = [
         desc: "With plantain, extra pepper sauce",
         price: 3200,
         qty: 1,
-        img: "https://placehold.co/150x150?text=Jollof",
+        img: jollofPlate,
     },
     {
         id: 2,
@@ -18,7 +21,7 @@ const INITIAL_ITEMS = [
         desc: "With plantain, extra pepper sauce",
         price: 3200,
         qty: 1,
-        img: "https://placehold.co/150x150?text=Rice",
+        img: soup,
     },
     {
         id: 3,
@@ -26,7 +29,7 @@ const INITIAL_ITEMS = [
         desc: "With plantain, extra pepper sauce",
         price: 3200,
         qty: 1,
-        img: "https://placehold.co/150x150?text=Chicken",
+        img: spicedSnails,
     },
     {
         id: 4,
@@ -34,7 +37,7 @@ const INITIAL_ITEMS = [
         desc: "With plantain, extra pepper sauce",
         price: 3200,
         qty: 1,
-        img: "https://placehold.co/150x150?text=Meal",
+        img: jollofPlate,
     },
 ];
 
