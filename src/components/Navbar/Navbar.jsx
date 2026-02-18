@@ -22,7 +22,7 @@ const Navbar = () => {
 
             {/* Centered Links (Visible on larger screens) */}
             <div className="navbar-links">
-                <Link to="/" className={`nav-link ${isActive("/")}`}>
+                <Link to="/home" className={`nav-link ${isActive("/")}`}>
                     Home
                 </Link>
                 <Link
