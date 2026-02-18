@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
-import Landing from "./pages/Landing";
+import Landing from "./pages/Landing/Landing";
 import Signup from "./components/Signup/Signup";
 import Login from "./components/Login/Login";
 import Cart from "./components/Cart/Cart";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 
 function App() {
     return (
