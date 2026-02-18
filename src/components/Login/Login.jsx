@@ -12,7 +12,7 @@ const Login = () => {
         e.preventDefault();
         // Logic for login goes here
         console.log("Logging in...");
-        navigate("/"); // Navigate to home on success
+        navigate("/home"); // Navigate to home on success
     };
 
     return (

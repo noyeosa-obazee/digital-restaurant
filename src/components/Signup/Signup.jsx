@@ -8,6 +8,13 @@ const Signup = () => {
     const [showPassword, setShowPassword] = useState(false);
     const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
+    const handleSignUp = (e) => {
+        e.preventDefault();
+        // Logic for signup goes here
+        console.log("Logging in...");
+        navigate("/home"); // Navigate to home on success
+    };
+
     return (
         <div>
             <div className="signup-container">
@@ -37,7 +44,7 @@ const Signup = () => {
                         <h2>Create Your Account</h2>
                     </div>
 
-                    <form className="auth-form">
+                    <form className="auth-form" onSubmit={handleSignUp}>
                         {/* Email */}
                         <div className="form-group">
                             <label>Email</label>
