@@ -40,6 +40,9 @@
 .hero-content-centered {
     z-index: 1;
     margin-bottom: 60px; /* Space for search bar */
+    align-self: flex-start;
+    text-align: initial;
+    padding-left: 50px;
 }
 
 .hero-content-centered h1 {
@@ -78,7 +81,7 @@
     width: 60%;
     max-width: 700px;
     padding: 15px 25px;
-    border-radius: 50px; /* Pill shape */
+    border-radius: 7px;
     display: flex;
     align-items: center;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
@@ -88,8 +91,7 @@
 
 .hero-search-bar .search-icon {
     font-size: 1.5rem;
-    margin-right: 15px;
-    color: #888;
+    margin-bottom: -25px;
 }
 
 .hero-search-bar input {

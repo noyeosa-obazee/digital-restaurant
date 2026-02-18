@@ -22,13 +22,10 @@ const Navbar = () => {
 
             {/* Centered Links (Visible on larger screens) */}
             <div className="navbar-links">
-                <Link to="/home" className={`nav-link ${isActive("/")}`}>
+                <Link to="/home" className={`nav-link ${isActive("/home")}`}>
                     Home
                 </Link>
-                <Link
-                    to="/explore"
-                    className={`nav-link ${isActive("/explore")}`}
-                >
+                <Link to="#" className={`nav-link ${isActive("#")}`}>
                     Explore
                 </Link>
                 <Link
@@ -37,10 +34,7 @@ const Navbar = () => {
                 >
                     My Orders
                 </Link>
-                <Link
-                    to="/account"
-                    className={`nav-link ${isActive("/account")}`}
-                >
+                <Link to="#" className={`nav-link ${isActive("#")}`}>
                     Account
                 </Link>
             </div>

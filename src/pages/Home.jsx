@@ -110,7 +110,23 @@ const Home = () => {
 
                 {/* Floating Search Bar */}
                 <div className="hero-search-bar">
-                    <span className="search-icon">🔍</span>
+                    <span className="search-icon">
+                        <svg
+                            width="46"
+                            height="46"
+                            viewBox="0 0 46 46"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M21 21L15.0001 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
+                                stroke="#807373"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                    </span>
                     <input
                         type="text"
                         placeholder="What are you craving for today?"
