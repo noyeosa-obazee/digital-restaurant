@@ -1,32 +1,42 @@
+/* Add these to your existing Navbar.css */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px 0;
-  width: 100%;
-  background-color: transparent;
-  margin-top: -20px;
+    padding: 30px;
+}
+.navbar-links {
+    display: flex;
+    gap: 70px;
 }
 
-.logo-text {
-  font-family: var(--font-logo);
-  font-size: 1.8rem;
-  color: var(--primary-orange);
-  font-weight: 500;
+.nav-link {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.2s;
 }
 
-.sign-in-btn {
-  background-color: transparent;
-  border: 1.5px solid var(--primary-blue);
-  color: var(--primary-blue);
-  padding: 8px 24px;
-  border-radius: 6px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
+.nav-link:hover {
+    color: var(--primary-orange);
 }
 
-.sign-in-btn:hover {
-  background-color: #f3f0ff;
-  transform: translateY(-1px);
+.nav-link.active-link {
+    color: var(--primary-orange);
+}
+
+/* Update the button style to match the filled orange button in the image */
+.sign-in-btn.filled {
+    background-color: var(--primary-orange);
+    color: white;
+    border: none;
+}
+
+.sign-in-btn.filled:hover {
+    background-color: #e67a1e;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .navbar-links {
+        display: none; /* Hide links on mobile for now */
+    }
 }

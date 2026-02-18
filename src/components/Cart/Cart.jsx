@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Cart.css";
 import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
 import jollofPlate from "../../assets/images/jollof_plate.png";
 import soup from "../../assets/images/soup.png";
 import spicedSnails from "../../assets/images/spiced_snail.png";
@@ -64,6 +65,7 @@ const Cart = () => {
 
     return (
         <div>
+            <Navbar />
             <div className="cart-container">
                 <h2 className="cart-title">Your Cart</h2>
 
