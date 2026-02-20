@@ -143,3 +143,13 @@
     padding: 40px 20px;
   }
 }
+
+@media (max-width: 768px) {
+  .hero-legal-footer {
+    text-align: initial;
+  }
+
+  .hero-content {
+    gap: 50px;
+  }
+}
