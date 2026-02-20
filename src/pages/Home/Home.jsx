@@ -95,9 +95,7 @@ const Home = () => {
         <img src={heroImage} alt="Hero Background" className="hero-bg-img" />
 
         <div className="hero-content-centered">
-          <h1>
-            The Heart of Nigerian Home <br /> Cooking
-          </h1>
+          <h1>The Heart of Nigerian Home Cooking</h1>
           <p>Handcrafted with passion, delivered with care.</p>
           <button className="btn-hero-orange">Discover what's new</button>
         </div>

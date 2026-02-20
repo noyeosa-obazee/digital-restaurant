@@ -103,14 +103,13 @@
   color: #333;
 }
 
-/* --- Common Section Styles --- */
 .section-container {
-  padding: 80px 8%; /* Top padding accommodates the search bar overlap */
+  padding: 80px 8%;
   background-color: #f9f9f9;
 }
 
 .section-container.bg-light {
-  background-color: #ffffff; /* Alternating bg colors */
+  background-color: #ffffff;
 }
 
 .section-title {
@@ -207,7 +206,7 @@
 
 .special-footer .price {
   font-weight: 700;
-  color: #fca311; /* Or lighter orange for price text */
+  color: var(--primary-orange);
   font-size: 1.1rem;
 }
 
@@ -288,5 +287,13 @@
 
   .promo-text h2 {
     font-size: 1.8rem;
+  }
+
+  .hero-content-centered {
+    padding-left: 20px;
+  }
+
+  .hero-search-bar .search-icon {
+    margin-right: -15px;
   }
 }
