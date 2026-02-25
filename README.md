@@ -10,7 +10,7 @@
 
 This project is a **Food Ordering & Customer Management System** developed for **Mr. Chukwudi Okorie (Mr. Chuks)**, the owner of **Chuks Kitchen**, a Nigerian restaurant specializing in authentic local dishes. The project was developed by **TrueMinds Innovations Ltd** to digitize the food business, allowing customers to register, browse meals, place orders, and track activity online.
 
-### What We Built
+### What Was Built
 
 The web application consists of **5 main screens**:
 
