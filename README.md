@@ -1,5 +1,11 @@
 # Chuks Kitchen - Digital Restaurant Web Application
 
+## 🔗 Live Preview
+
+> **Live Site URL:** [Add your Netlify deployment link here]
+
+---
+
 ## Project Overview
 
 This project is a **Food Ordering & Customer Management System** developed for **Mr. Chukwudi Okorie (Mr. Chuks)**, the owner of **Chuks Kitchen**, a Nigerian restaurant specializing in authentic local dishes. The project was developed by **TrueMinds Innovations Ltd** to digitize the food business, allowing customers to register, browse meals, place orders, and track activity online.
@@ -146,6 +152,10 @@ The main navbar includes a fully functional responsive hamburger menu:
 - Displays order history (mock data)
 - Order status indicators
 - Navigation bar (with hamburger menu on mobile)
+
+### Navigation Note
+
+The main navigation bar (with hamburger menu) appears on the **Home Page** and **Orders Page** only. The Landing Page, Sign Up Page, and Log In Page do not include this navigation bar - they instead feature the navigation links in their footer area. This design choice follows the Figma mockups and provides a clean, focused experience for new visitors.
 
 ---
 
