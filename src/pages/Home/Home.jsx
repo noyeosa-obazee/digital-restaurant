@@ -1,6 +1,15 @@
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import heroImage from "../../assets/images/Welcome.png";
+import homePageDishes from "../../assets/images/home_page_dishes.png";
+import jollofChicken from "../../assets/images/jollof_chicken.png";
+import jollofPlate from "../../assets/images/jollof_plate.png";
+import jollofStewBanner from "../../assets/images/jollof_stew_banner.png";
+import jollof from "../../assets/images/jollof.png";
+import poundedYamSoup from "../../assets/images/pounded_yam_soup.png";
+import poundedYam from "../../assets/images/pounded_yam.png";
+import suya from "../../assets/images/suya.png";
+import treats from "../../assets/images/treats.png";
 import "./Home.css";
 
 // Mock Data for Categories
@@ -8,32 +17,32 @@ const CATEGORIES = [
   {
     id: 1,
     title: "Jollof Delights",
-    img: "https://placehold.co/400x300?text=Jollof",
+    img: jollofPlate,
   },
   {
     id: 2,
     title: "Swallow & Soups",
-    img: "https://placehold.co/400x300?text=Swallow",
+    img: poundedYamSoup,
   },
   {
     id: 3,
     title: "Grills & BBQ",
-    img: "https://placehold.co/400x300?text=Grills",
+    img: suya,
   },
   {
     id: 4,
     title: "Sweet Treats",
-    img: "https://placehold.co/400x300?text=Sweets",
+    img: treats,
   },
   {
     id: 5,
     title: "Jollof Delights",
-    img: "https://placehold.co/400x300?text=Jollof+2",
+    img: jollof,
   },
   {
     id: 6,
-    title: "Jollof Delights",
-    img: "https://placehold.co/400x300?text=Jollof+3",
+    title: "Family Meals",
+    img: homePageDishes,
   },
 ];
 
@@ -44,42 +53,42 @@ const SPECIALS = [
     title: "Spicy Tilapia Pepper Soup",
     desc: "A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.",
     price: "3,500",
-    img: "https://placehold.co/400x300?text=Pepper+Soup",
+    img: jollofStewBanner,
   },
   {
     id: 2,
     title: "Jollof Rice & Fried Chicken",
     desc: "Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.",
     price: "3,500",
-    img: "https://placehold.co/400x300?text=Jollof+Rice",
+    img: jollofPlate,
   },
   {
     id: 3,
     title: "Jollof Rice & Fried Chicken",
     desc: "Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.",
     price: "3,500",
-    img: "https://placehold.co/400x300?text=Jollof+Rice",
+    img: jollof,
   },
   {
     id: 4,
     title: "Jollof Rice & Smoked Chicken",
     desc: "Our signature Jollof rice, cooked to perfection, served with succulent Smoked chicken.",
     price: "3,500",
-    img: "https://placehold.co/400x300?text=Smoked+Chicken",
+    img: jollofChicken,
   },
   {
     id: 5,
     title: "Jollof Rice & Fried Chicken",
     desc: "Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.",
     price: "3,500",
-    img: "https://placehold.co/400x300?text=Fried+Chicken",
+    img: homePageDishes,
   },
   {
     id: 6,
     title: "Egusi Soup & Pounded Yam",
     desc: "Rich and savory Egusi soup with assorted meats, paired with freshly pounded yam.",
     price: "3,500",
-    img: "https://placehold.co/400x300?text=Egusi+Soup",
+    img: poundedYam,
   },
 ];
 
@@ -162,11 +171,7 @@ const Home = () => {
 
       {/* --- 4. NEW MENU PROMO --- */}
       <section className="promo-section">
-        <img
-          src="https://placehold.co/1600x600?text=Beans+and+Plantain"
-          alt="New Menu"
-          className="promo-bg"
-        />
+        <img src={jollofStewBanner} alt="New Menu" className="promo-bg" />
         <div className="promo-overlay">
           <div className="promo-text">
             <h2>Introducing Our New Menu Additions!</h2>
