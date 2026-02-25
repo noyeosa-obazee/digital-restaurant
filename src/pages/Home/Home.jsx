@@ -17,7 +17,7 @@ const CATEGORIES = [
   {
     id: 1,
     title: "Jollof Delights",
-    img: jollofPlate,
+    img: jollof,
   },
   {
     id: 2,
