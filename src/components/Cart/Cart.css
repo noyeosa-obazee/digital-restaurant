@@ -1,242 +1,242 @@
 .cart-container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    background-color: #fcfcfc; /* Light background for the page area */
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #fcfcfc; /* Light background for the page area */
 }
 
 .cart-title {
-    font-size: 1.8rem;
-    font-weight: 700;
-    margin-bottom: 25px;
-    color: var(--text-dark);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: var(--text-dark);
 }
 
 .cart-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 /* Individual Item Card */
 .cart-item {
-    display: flex;
-    align-items: center;
-    background: white;
-    padding: 15px;
-    border-radius: 8px;
-    border: 1px solid #eaeaea;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
-    transition: transform 0.2s;
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
+  transition: transform 0.2s;
 }
 
 .cart-item:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 /* Image */
 .item-image img {
-    width: 100px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 6px;
-    display: block;
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
 }
 
 /* Text Details */
 .item-details {
-    flex: 2;
-    padding-left: 20px;
+  flex: 2;
+  padding-left: 20px;
 }
 
 .item-details h3 {
-    font-size: 1.2rem;
-    color: #000;
-    margin-bottom: 5px;
+  font-size: 1.2rem;
+  color: #000;
+  margin-bottom: 5px;
 }
 
 .item-details p {
-    color: #666;
-    font-size: 0.9rem;
+  color: #666;
+  font-size: 0.9rem;
 }
 
 /* Actions (Qty) */
 .item-actions {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-right: 40px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-right: 40px;
 }
 
 .qty-btn {
-    width: 30px;
-    height: 30px;
-    background-color: #e0e0e0;
-    border: none;
-    border-radius: 4px;
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: #555;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 3px; /* visual alignment */
+  width: 30px;
+  height: 30px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #555;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3px; /* visual alignment */
 }
 
 .qty-btn:hover {
-    background-color: #d0d0d0;
+  background-color: #d0d0d0;
 }
 
 .qty-display {
-    font-size: 1.5rem;
-    font-weight: 500;
-    min-width: 20px;
-    text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  min-width: 20px;
+  text-align: center;
 }
 
 /* Price */
 .item-price {
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: var(--primary-orange);
-    margin-right: 30px;
-    min-width: 80px;
-    text-align: right;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--primary-orange);
+  margin-right: 30px;
+  min-width: 80px;
+  text-align: right;
 }
 
 /* Remove Button */
 .remove-btn {
-    background-color: var(--primary-orange);
-    color: white;
-    border: none;
-    width: 24px;
-    height: 24px;
-    border-radius: 4px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 2px;
+  background-color: var(--primary-orange);
+  color: white;
+  border: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2px;
 }
 
 .remove-btn:hover {
-    background-color: #e67a1e;
+  background-color: #e67a1e;
 }
 
 /* Footer Link */
 .cart-footer-link {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .cart-footer-link a {
-    text-decoration: none;
-    color: #3b82f6; /* Blue color */
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    gap: 8px;
+  text-decoration: none;
+  color: #3b82f6; /* Blue color */
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .cart-footer-link span {
-    font-size: 1.2rem;
-    font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
-/* Mobile Responsive */
+/* Responsiveness */
 @media (max-width: 768px) {
-    .cart-item {
-        display: grid;
-        /* Creates 3 columns: Image (90px), Middle content (flexible), Remove Button (auto) */
-        grid-template-columns: 90px 1fr auto;
-        /* Creates 3 rows for the right side: Text, Qty Controls, Price */
-        grid-template-rows: auto auto auto;
-        gap: 8px 12px;
-        padding: 10px;
-        align-items: center;
-    }
+  .cart-item {
+    display: grid;
+    /* Creates 3 columns: Image (90px), Middle content (flexible), Remove Button (auto) */
+    grid-template-columns: 90px 1fr auto;
+    /* Creates 3 rows for the right side: Text, Qty Controls, Price */
+    grid-template-rows: auto auto auto;
+    gap: 3px 12px;
+    padding: 10px;
+    align-items: center;
+  }
 
-    /* 1. Lock the Image to the left and make it span all 3 rows */
-    .item-image {
-        grid-column: 1 / 2;
-        grid-row: 1 / 4;
-        margin: 0;
-        height: 100%;
-    }
+  /* 1. Lock the Image to the left and make it span all 3 rows */
+  .item-image {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    margin: 0;
+    height: 100%;
+  }
 
-    .item-image img {
-        width: 100%;
-        height: 105px;
-        object-fit: cover;
-        border-radius: 6px;
-    }
+  .item-image img {
+    width: 100%;
+    height: 105px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
 
-    /* 2. Put Title and Desc in the top row, spanning the rest of the width */
-    .item-details {
-        grid-column: 2 / 4;
-        grid-row: 1 / 2;
-        padding-left: 0;
-        text-align: left;
-    }
+  /* 2. Put Title and Desc in the top row, spanning the rest of the width */
+  .item-details {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    padding-left: 0;
+    text-align: left;
+  }
 
-    .item-details h3 {
-        font-size: 1rem;
-        line-height: 1.2;
-        margin-bottom: 4px;
-    }
+  .item-details h3 {
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-bottom: 4px;
+  }
 
-    .item-details p {
-        font-size: 0.8rem;
-        margin: 0;
-    }
+  .item-details p {
+    font-size: 0.8rem;
+    margin: 0;
+  }
 
-    /* 3. Put Quantity Controls in the middle row, spreading them out */
-    .item-actions {
-        grid-column: 2 / 4;
-        grid-row: 2 / 3;
-        margin: 5px 0;
-        width: 100%;
-        justify-content: space-between; /* Spreads +, 1, and - like the target image */
-    }
+  /* 3. Put Quantity Controls in the middle row, spreading them out */
+  .item-actions {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    margin: 5px 0;
+    width: 100%;
+    justify-content: space-between;
+  }
 
-    .qty-btn {
-        width: 26px;
-        height: 26px;
-        font-size: 0.8rem;
-        font-weight: 500;
-        /*padding-bottom: 2px;*/
-        padding: 0;
-    }
+  .qty-btn {
+    width: 26px;
+    height: 26px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    /*padding-bottom: 2px;*/
+    padding: 0;
+  }
 
-    .qty-display {
-        font-size: 1.1rem;
-    }
+  .qty-display {
+    font-size: 1.1rem;
+  }
 
-    /* 4. Put Price in the bottom row, aligned left */
-    .item-price {
-        grid-column: 2 / 3;
-        grid-row: 3 / 4;
-        text-align: left;
-        margin: 0;
-        font-size: 1rem;
-    }
+  /* 4. Put Price in the bottom row, aligned left */
+  .item-price {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    text-align: left;
+    margin: 0;
+    font-size: 1rem;
+  }
 
-    /* 5. Put Remove button in the bottom row, aligned right */
-    .remove-btn {
-        grid-column: 3 / 4;
-        grid-row: 3 / 4;
-        position: static; /* Resets the absolute positioning from previous code */
-        margin: 0;
-        background-color: #1a202c; /* Matches the dark blackish button in your target image */
-        width: 26px;
-        height: 26px;
-        border-radius: 4px;
-        padding: 0;
-        font-size: 0.8rem;
-    }
+  /* 5. Put Remove button in the bottom row, aligned right */
+  .remove-btn {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    position: static;
+    margin: 0;
+    background-color: #1a202c;
+    width: 26px;
+    height: 26px;
+    border-radius: 4px;
+    padding: 0;
+    font-size: 0.8rem;
+  }
 
-    .remove-btn:hover {
-        background-color: #2d3748;
-    }
+  .remove-btn:hover {
+    background-color: #2d3748;
+  }
 }
