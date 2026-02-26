@@ -1,15 +1,14 @@
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import heroImage from "../../assets/images/Welcome.png";
-import homePageDishes from "../../assets/images/home_page_dishes.png";
 import jollofChicken from "../../assets/images/jollof_chicken.png";
-import jollofPlate from "../../assets/images/jollof_plate.png";
 import jollofStewBanner from "../../assets/images/jollof_stew_banner.png";
 import jollof from "../../assets/images/jollof.png";
 import poundedYamSoup from "../../assets/images/pounded_yam_soup.png";
-import poundedYam from "../../assets/images/pounded_yam.png";
 import suya from "../../assets/images/suya.png";
-import treats from "../../assets/images/treats.png";
+import treats from "../../assets/images/sweets_treats.png";
+import tilapia from "../../assets/images/tilapia.png";
+import poundedYamPlate from "../../assets/images/pounded_yam_plate.png";
 import "./Home.css";
 
 // Mock Data for Categories
@@ -22,7 +21,7 @@ const CATEGORIES = [
   {
     id: 2,
     title: "Swallow & Soups",
-    img: poundedYamSoup,
+    img: poundedYamPlate,
   },
   {
     id: 3,
@@ -37,12 +36,12 @@ const CATEGORIES = [
   {
     id: 5,
     title: "Jollof Delights",
-    img: jollof,
+    img: poundedYamPlate,
   },
   {
     id: 6,
-    title: "Family Meals",
-    img: homePageDishes,
+    title: "Jollof Delights",
+    img: suya,
   },
 ];
 
@@ -53,14 +52,14 @@ const SPECIALS = [
     title: "Spicy Tilapia Pepper Soup",
     desc: "A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy.",
     price: "3,500",
-    img: jollofStewBanner,
+    img: tilapia,
   },
   {
     id: 2,
     title: "Jollof Rice & Fried Chicken",
     desc: "Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.",
     price: "3,500",
-    img: jollofPlate,
+    img: jollof,
   },
   {
     id: 3,
@@ -74,21 +73,21 @@ const SPECIALS = [
     title: "Jollof Rice & Smoked Chicken",
     desc: "Our signature Jollof rice, cooked to perfection, served with succulent Smoked chicken.",
     price: "3,500",
-    img: jollofChicken,
+    img: jollof,
   },
   {
     id: 5,
     title: "Jollof Rice & Fried Chicken",
     desc: "Our signature Jollof rice, cooked to perfection, served with succulent fried chicken.",
     price: "3,500",
-    img: homePageDishes,
+    img: jollofChicken,
   },
   {
     id: 6,
     title: "Egusi Soup & Pounded Yam",
     desc: "Rich and savory Egusi soup with assorted meats, paired with freshly pounded yam.",
     price: "3,500",
-    img: poundedYam,
+    img: poundedYamSoup,
   },
 ];
 
@@ -148,7 +147,7 @@ const Home = () => {
       </section>
 
       {/* --- 3. CHEF'S SPECIALS --- */}
-      <section className="section-container bg-light">
+      <section className="section-container">
         <h2 className="section-title">Chef's Specials</h2>
         <div className="specials-grid">
           {SPECIALS.map((item) => (
