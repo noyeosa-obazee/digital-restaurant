@@ -137,19 +137,54 @@
     height: auto;
   }
   .hero-image {
-    height: 400px;
+    height: 300px;
   }
   .hero-content {
-    padding: 40px 20px;
+    padding: 20px;
+    gap: 40px;
   }
 }
 
 @media (max-width: 768px) {
-  .hero-legal-footer {
-    text-align: initial;
+  .hero-content {
+    gap: 30px;
+    padding: 15px;
+  }
+
+  .hero-main-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-description {
+    font-size: 0.9rem;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .feature-item p {
+    font-size: 0.85rem;
+  }
+
+  .cta-group button {
+    padding: 14px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-image {
+    height: 200px;
   }
 
   .hero-content {
-    gap: 50px;
+    padding: 12px;
+    gap: 20px;
+  }
+
+  .hero-main-text h1 {
+    font-size: 1.3rem;
   }
 }
