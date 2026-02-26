@@ -1,8 +1,14 @@
+.cart-page {
+  background-color: var(--bg-grey);
+}
+
 .cart-container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 40px 20px;
-  background-color: #fcfcfc; /* Light background for the page area */
+  padding: 25px 20px;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+  margin-bottom: 40px;
 }
 
 .cart-title {
@@ -127,7 +133,7 @@
 
 /* Footer Link */
 .cart-footer-link {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .cart-footer-link a {
@@ -238,5 +244,16 @@
 
   .remove-btn:hover {
     background-color: #2d3748;
+  }
+}
+
+@media (max-width: 480px) {
+  .cart-container {
+    padding: 15px 10px;
+  }
+
+  .cart-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
   }
 }
