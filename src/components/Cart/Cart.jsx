@@ -64,64 +64,67 @@ const Cart = () => {
   };
 
   return (
-    <div className="cart-page">
+    <>
       <Navbar />
-      <div className="cart-container">
-        <h2 className="cart-title">Your Cart</h2>
 
-        <div className="cart-list">
-          {items.map((item) => (
-            <div key={item.id} className="cart-item">
-              {/* Image */}
-              <div className="item-image">
-                <img src={item.img} alt={item.name} />
-              </div>
+      <div className="cart-page">
+        <div className="cart-container">
+          <h2 className="cart-title">Your Cart</h2>
 
-              {/* Details */}
-              <div className="item-details">
-                <h3>{item.name}</h3>
-                <p>{item.desc}</p>
-              </div>
+          <div className="cart-list">
+            {items.map((item) => (
+              <div key={item.id} className="cart-item">
+                {/* Image */}
+                <div className="item-image">
+                  <img src={item.img} alt={item.name} />
+                </div>
 
-              {/* Quantity Controls */}
-              <div className="item-actions">
+                {/* Details */}
+                <div className="item-details">
+                  <h3>{item.name}</h3>
+                  <p>{item.desc}</p>
+                </div>
+
+                {/* Quantity Controls */}
+                <div className="item-actions">
+                  <button
+                    className="qty-btn"
+                    onClick={() => updateQty(item.id, 1)}
+                  >
+                    +
+                  </button>
+                  <span className="qty-display">{item.qty}</span>
+                  <button
+                    className="qty-btn"
+                    onClick={() => updateQty(item.id, -1)}
+                  >
+                    −
+                  </button>
+                </div>
+
+                {/* Price */}
+                <div className="item-price">₦{item.price.toLocaleString()}</div>
+
+                {/* Remove Button */}
                 <button
-                  className="qty-btn"
-                  onClick={() => updateQty(item.id, 1)}
+                  className="remove-btn"
+                  onClick={() => removeItem(item.id)}
                 >
-                  +
-                </button>
-                <span className="qty-display">{item.qty}</span>
-                <button
-                  className="qty-btn"
-                  onClick={() => updateQty(item.id, -1)}
-                >
-                  −
+                  ×
                 </button>
               </div>
+            ))}
+          </div>
 
-              {/* Price */}
-              <div className="item-price">₦{item.price.toLocaleString()}</div>
-
-              {/* Remove Button */}
-              <button
-                className="remove-btn"
-                onClick={() => removeItem(item.id)}
-              >
-                ×
-              </button>
-            </div>
-          ))}
+          <div className="cart-footer-link">
+            <a href="/explore">
+              <span>+</span> Add more items from Chuks Kitchen
+            </a>
+          </div>
         </div>
-
-        <div className="cart-footer-link">
-          <a href="/explore">
-            <span>+</span> Add more items from Chuks Kitchen
-          </a>
-        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </>
   );
 };
 

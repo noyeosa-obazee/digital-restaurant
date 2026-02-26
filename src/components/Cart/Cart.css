@@ -1,5 +1,6 @@
 .cart-page {
   background-color: var(--bg-grey);
+  padding-top: 40px;
 }
 
 .cart-container {
