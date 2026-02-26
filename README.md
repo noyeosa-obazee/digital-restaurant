@@ -2,7 +2,7 @@
 
 ## 🔗 Live Preview
 
-> **Live Site URL:** [Add your Netlify deployment link here]
+> **Live Site URL:** [https://chuks-kitchen-01.netlify.app]
 
 ---
 
